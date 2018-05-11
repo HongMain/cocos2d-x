@@ -606,11 +606,6 @@ The reason for this is that if you have no other constructors and do not define 
 
 If your class inherits from an existing class but you add no new member variables, you are not required to have a default constructor.
 
-
-The reason for this is that if you have no other constructors and do not define a default constructor, the compiler will generate one for you. This compiler generated constructor may not initialize your object sensibly.
-
-If your class inherits from an existing class but you add no new member variables, you are not required to have a default constructor.
-
 ## Explicit Constructors
 
 Use the C++ keyword explicit for constructors with one argument.
